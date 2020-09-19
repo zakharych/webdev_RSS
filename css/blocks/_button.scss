@@ -1,0 +1,14 @@
+.button {
+    padding: 15px 47px;
+    background: $blue;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+        background: $darkBlue;
+
+    }
+}

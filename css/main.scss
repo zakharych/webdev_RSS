@@ -1,0 +1,19 @@
+$contaoinerWidth: 1280px;
+$baseFontSize: 14px;
+
+
+//colors
+$blue: #00AFDB;
+$darkBlue: #009CC2;
+$textColor: #4E4E4E;
+$textBoldColor: #373737;
+
+
+@import "./layout/base";
+@import "./layout/normalize";
+@import "./blocks/section";
+@import "./blocks/hero";
+@import "./blocks/promo";
+@import "./blocks/header";
+@import "./blocks/button";
+@import "./blocks/socials";
