@@ -1,5 +1,5 @@
 .header {
-    margin-bottom: 156px;
+    margin-bottom: 153px;
 }
 
 .menu {
@@ -8,9 +8,27 @@
     align-items: center;
     justify-content: space-between;
     max-width: 583px;
-    line-height: 1;
+}
+.menu__item {
+    opacity: 0.8;
+
+
+    border-bottom: 1px solid transparent;
+
+    &--active,
+    &:hover {
+        opacity: 1;
+        border-bottom: 1px solid #ffffff;
+    }
+
 }
 
-.menu__item-logo {
+.menu__item-logo {    
     margin: 0 25px;
+    opacity: 1;
+    border: none;
+
+    &:hover {
+        border: none;
+    }
 }
