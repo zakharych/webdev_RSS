@@ -1,0 +1,39 @@
+.idea-section {
+    margin: 120px 0 140px;
+}
+.idea-container {
+    padding: 0 109px;
+}
+
+.idea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idea__content {
+    max-width: 407px;
+}
+.idea__title {
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    letter-spacing: 0.07rem;
+    width: 95%;
+}
+.idea__subtitle {
+    margin-bottom: 30px;
+    color: $textColor;
+}
+
+.idea__pic {
+    width: 407px;
+    height: 582px;
+}
+
+.idea__img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    object-fit: cover;
+}
