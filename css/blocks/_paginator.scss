@@ -1,0 +1,47 @@
+.paginator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.paginator__pages {
+    padding: 0 5px;
+    color: $textBoldColor;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.paginator__arrow{
+    height: 14px;
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.slider {
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+}
+.slider__pics {
+    position: relative;
+}
+.slider__list {
+    display: flex;
+    position: absolute;
+
+}
+
+.slider__item {
+    margin-right: 25px;
+    &:last-child {
+        margin: 0;
+    }
+
+    // &:not(:first-child) {
+    //     position: absolute;
+    //     left: 415px;
+    // }
+}

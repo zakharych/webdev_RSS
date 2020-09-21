@@ -40,9 +40,11 @@ body {
 }
 
 .wrapper {
+  min-height: 1600;
   width: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .maincontent {
@@ -62,6 +64,7 @@ h1 {
 
 h2 {
   font: 700 24px /1.2 'Roboto', sans-serif;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -552,5 +555,94 @@ template {
   overflow: hidden;
   display: block;
   object-fit: cover;
+}
+
+.comunity-section {
+  background-color: #F5F6F7;
+  padding: 82px 0 140px;
+}
+
+.comunity-container {
+  display: flex;
+  align-items: center;
+}
+
+.comunity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 150px;
+  width: 26%;
+}
+
+.comunity__avatar {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.comunity__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.comunity__title {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.comynity__subtitle {
+  color: #4E4E4E;
+}
+
+.paginator {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.paginator__pages {
+  padding: 0 5px;
+  color: #373737;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.paginator__arrow {
+  height: 14px;
+}
+
+.paginator__arrow:hover {
+  opacity: 0.5;
+}
+
+.slider {
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider__pics {
+  position: relative;
+}
+
+.slider__list {
+  display: flex;
+  position: absolute;
+}
+
+.slider__item {
+  margin-right: 25px;
+}
+
+.slider__item:last-child {
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
