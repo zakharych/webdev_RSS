@@ -13,8 +13,9 @@
     line-height: 1;
 }
 
-.paginator__arrow{
+.paginator__arrow {
     height: 14px;
+
     &:hover {
         opacity: 0.5;
     }
@@ -25,9 +26,11 @@
     display: flex;
     flex-direction: column;
 }
+
 .slider__pics {
     position: relative;
 }
+
 .slider__list {
     display: flex;
     position: absolute;
@@ -35,7 +38,10 @@
 }
 
 .slider__item {
+    width: 407px;
+    height: 244px;
     margin-right: 25px;
+
     &:last-child {
         margin: 0;
     }
@@ -44,4 +50,12 @@
     //     position: absolute;
     //     left: 415px;
     // }
+}
+
+.Slider__pic {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
 }

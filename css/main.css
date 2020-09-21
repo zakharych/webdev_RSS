@@ -639,10 +639,20 @@ template {
 }
 
 .slider__item {
+  width: 407px;
+  height: 244px;
   margin-right: 25px;
 }
 
 .slider__item:last-child {
   margin: 0;
+}
+
+.Slider__pic {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
 }
 /*# sourceMappingURL=main.css.map */
